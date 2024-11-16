@@ -83,3 +83,43 @@
     gap: 100px;
 }
 
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illustrations {
+    display: flex;
+    gap: 60px;
+}
+
+.illu-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.illu {
+    border: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.illustration {
+    width: 200px;
+}
+
+.main-first {
+    padding-top: 50px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
