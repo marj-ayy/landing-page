@@ -39,12 +39,12 @@
     color: #E5E7EB;
 }
 
-.logo-text {
+.phrase1, .logo-text {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.top-button {
+.button-main, .top-button {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
@@ -73,6 +73,7 @@
 
 .list-header {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -91,8 +92,8 @@
 
 .illustrations {
     display: flex;
-    flex-wrap: wrap;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .illu-text {
@@ -143,4 +144,34 @@
     font-size: 28px;
     font-weight: bold;
     margin-left: 480px;
+}
+
+.button-main {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: 0;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 100px;
+    width: 900px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+}
+
+.phrase1 {
+    font-weight: 800;
+}
+
+.main-third {
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
 }
